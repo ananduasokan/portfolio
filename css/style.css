@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+    height: 4em;
+}
+.component{
+    margin-left: 17%;
+    padding-top: 20px;
+    
+}
+.component a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin-right: 8%;
+}
+.component a:hover{
+    color: black;
+    background-color: green;
+    transition: 0.5s ease-in-out;
+}
+
+.about-me{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    width: 55%;
+}
+.about-me h1{
+    padding-left: 70%;
+}
+.about-me p{
+    padding-left: 10%;
+}
+#container{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    padding-left: 40%;
+}
+.my-skills{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.p-box{
+    /* border: 1px solid white; */
+    width: 23%;
+    float: left;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: justify;
+    
+
+}
+#educational-history{
+    /* border: 1px solid white; */
+    padding-left: 35%;
+    margin-top: 2%;
+}
+#btech{
+    /* border:1px solid black; */
+    padding-left: 20%;
+}
